@@ -1,5 +1,5 @@
 [phases.setup]
-nixPkgs = ["go", "nodejs", "npm"]
+nixPkgs = ["go", "nodejs"]
 
 [phases.build]
 cmds = [
