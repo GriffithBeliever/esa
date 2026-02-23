@@ -1,0 +1,11 @@
+[phases.setup]
+nixPkgs = ["go", "nodejs", "npm"]
+
+[phases.build]
+cmds = [
+  "cd frontend && npm ci && npm run build",
+  "go build -o ims ./cmd/server"
+]
+
+[start]
+cmd = "./ims"

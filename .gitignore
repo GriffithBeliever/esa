@@ -1,0 +1,40 @@
+# Binaries
+ims
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Build outputs
+/frontend/dist
+/data/*.db
+/data/*.db-shm
+/data/*.db-wal
+
+# Environment
+.env
+
+# Go
+/vendor/
+*.test
+*.out
+go.sum.bak
+
+# Node
+/frontend/node_modules/
+/frontend/.vite/
+/frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ai
+.claude
+.agents
